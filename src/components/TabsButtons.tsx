@@ -19,8 +19,8 @@ export function TabsButtons() {
         className="bg-[#171F26] flex flex-wrap justify-center gap-4 py-4 px-6 rounded-2xl w-full max-w-screen-md"
       >
         {[
-          { label: "Portfolio", value: "portfolio" },
-          { label: "Skills", value: "skills" },
+          { label: "نمونه کارها", value: "portfolio" },
+          { label: "مهارت های من", value: "skills" },
         ].map((tab) => (
           <ToggleGroupItem
             key={tab.value}
@@ -38,50 +38,50 @@ export function TabsButtons() {
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
             <PortfolioItem
               imageSrc="/images/Group 3.svg"
-              overlayTitle="Project 1"
-              overlayDescription="Description for Project 1"
+              overlayTitle="پروژه شماره 1"
+              overlayDescription="توضیحات پروژه شماره 1"
               overlayLink="#"
             />
             <PortfolioItem
               imageSrc="/images/Group 4.svg"
-              overlayTitle="Project 2"
-              overlayDescription="Description for Project 2"
+              overlayTitle="پروژه شماره 2"
+              overlayDescription="توضیحات پروژه شماره 2"
               overlayLink="#"
             />
             <PortfolioItem
               imageSrc="/images/Group 5.svg"
-              overlayTitle="Project 3"
-              overlayDescription="Description for Project 3"
+              overlayTitle="پروژه شماره 3"
+              overlayDescription="توضیحات پروژه شماره 3"
               overlayLink="#"
             />
             <PortfolioItem
               imageSrc="/images/Group 6.svg"
-              overlayTitle="Project 4"
-              overlayDescription="Description for Project 4"
+              overlayTitle="پروژه شماره 4"
+              overlayDescription="توضیحات پروژه شماره 4"
               overlayLink="#"
             />
             <PortfolioItem
               imageSrc="/images/Group 7.svg"
-              overlayTitle="Project 5"
-              overlayDescription="Description for Project 5"
+              overlayTitle="پروژه 5"
+              overlayDescription="توضیحات پروژه شماره 5"
               overlayLink="#"
             />
             <PortfolioItem
               imageSrc="/images/Group 8.svg"
-              overlayTitle="Project 6"
-              overlayDescription="Description for Project 6"
+              overlayTitle="پروژه شماره 6"
+              overlayDescription="توضیحات پروژه شماره 6"
               overlayLink="#"
             />
           </div>
         )}
         {selectedTab === "skills" && (
           <div className="grid grid-cols-2 sm:grid-cols-3 gap-6">
-            <SkillCircle label="React" percentage={90} />
-            <SkillCircle label="TypeScript" percentage={85} />
-            <SkillCircle label="Next.js" percentage={80} />
-            <SkillCircle label="Tailwind CSS" percentage={75} />
-            <SkillCircle label="Node.js" percentage={70} />
-            <SkillCircle label="Figma" percentage={60} />
+            <SkillCircle label="ری اکت" percentage={90} />
+            <SkillCircle label="تایپ اسکریپت" percentage={85} />
+            <SkillCircle label="نکست جی اس" percentage={80} />
+            <SkillCircle label="تیلویند" percentage={75} />
+            <SkillCircle label="وردپرس" percentage={70} />
+            <SkillCircle label="فیگما" percentage={60} />
           </div>
         )}
       </div>

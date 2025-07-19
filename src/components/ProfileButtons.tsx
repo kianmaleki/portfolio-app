@@ -12,7 +12,7 @@ export default function ProfileButtons() {
         className="bg-[#FFE071] text-black p-8 sm:py-6 sm:px-10 rounded-2xl hover:bg-[#FFD54F] transition-colors w-full sm:w-auto"
       >
         <Link href="#" className="flex items-center justify-center gap-2">
-          Download CV <DownloadIcon size={18} />
+          دانلود رزومه <DownloadIcon size={18} />
         </Link>
       </Button>
       <Button
@@ -20,7 +20,7 @@ export default function ProfileButtons() {
         className="bg-[#171F26] text-[#A3ABB2] p-8 sm:py-6 sm:px-10 rounded-2xl hover:bg-[#1F2937] transition-colors w-full sm:w-auto"
       >
         <Link href="#" className="flex items-center justify-center gap-2">
-          Contact me
+          ارتباط با من
         </Link>
       </Button>
     </Container>

@@ -6,7 +6,7 @@ import Link from "next/link";
 
 export default function ProfileInfo() {
   return (
-    <Container className="flex-col sm:flex-row items-center sm:items-start text-center sm:text-left gap-8">
+    <Container className="flex-col sm:flex-row items-center sm:items-start text-center gap-8">
       <Image
         src="/images/profile.png"
         alt="Profile Picture"
@@ -15,8 +15,10 @@ export default function ProfileInfo() {
         className="rounded-full border-4 border-gray-300"
       />
       <div className="flex flex-col items-center sm:items-start gap-4">
-        <h1 className="text-3xl sm:text-4xl font-bold">Kianmaleki</h1>
-        <p className="text-[#A3ABB2] text-base sm:text-lg">Software Engineer</p>
+        <h1 className="text-3xl sm:text-4xl font-bold">کیان مالکی</h1>
+        <p className="text-[#A3ABB2] text-base sm:text-lg">
+          توسعه دهنده وب اپلیکیشن
+        </p>
         <div className="flex gap-4 justify-center sm:justify-start items-center">
           <Link href="#" aria-label="GitHub">
             <GithubIcon className="w-5 h-5 hover:text-white transition-colors" />

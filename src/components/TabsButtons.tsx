@@ -20,14 +20,14 @@ export function TabsButtons() {
         <ToggleGroupItem
           value="portfolio"
           aria-label="Toggle Portfolio"
-          className="bg-[#171F26] text-[#A3ABB2] py-4 px-8 text-sm sm:text-base hover:bg-[#171F26] transition-colors border-none data-[state=on]:rounded-2xl data-[state=on]:bg-[#0C151D] data-[state=on]:text-white"
+          className="bg-[#171F26] text-[#A3ABB2] p-8 text-sm sm:text-base hover:bg-[#171F26] transition-colors border-none data-[state=on]:rounded-2xl data-[state=on]:bg-[#0C151D] data-[state=on]:text-white"
         >
           Portfolio
         </ToggleGroupItem>
         <ToggleGroupItem
           value="skills"
           aria-label="Toggle Skills"
-          className="bg-[#171F26] text-[#A3ABB2] py-4 px-8 text-sm sm:text-base hover:bg-[#171F26] transition-colors border-none data-[state=on]:rounded-2xl data-[state=on]:bg-[#0C151D] data-[state=on]:text-white"
+          className="bg-[#171F26] text-[#A3ABB2] p-8 text-sm sm:text-base hover:bg-[#171F26] transition-colors border-none data-[state=on]:rounded-2xl data-[state=on]:bg-[#0C151D] data-[state=on]:text-white"
         >
           Skills
         </ToggleGroupItem>

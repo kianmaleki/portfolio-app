@@ -20,16 +20,24 @@ export default function ProfileInfo() {
           توسعه دهنده وب اپلیکیشن
         </p>
         <div className="flex gap-4 justify-center sm:justify-start items-center">
-          <Link href="#" aria-label="GitHub">
+          <Link
+            href="https://github.com/kianmaleki"
+            target="_blank"
+            aria-label="GitHub"
+          >
             <GithubIcon className="w-5 h-5 hover:text-white transition-colors" />
           </Link>
-          <Link href="#" aria-label="Twitter">
+          <Link href="https://x.com" target="_blank" aria-label="Twitter">
             <TwitterIcon className="w-5 h-5 hover:text-white transition-colors" />
           </Link>
-          <Link href="#" aria-label="LinkedIn">
+          <Link
+            href="https://www.linkedin.com/"
+            target="_blank"
+            aria-label="LinkedIn"
+          >
             <Linkedin className="w-5 h-5 hover:text-white transition-colors" />
           </Link>
-          <Link href="#" aria-label="YouTube">
+          <Link href="https://youtube.com" target="_blank" aria-label="YouTube">
             <YoutubeIcon className="w-5 h-5 hover:text-white transition-colors" />
           </Link>
         </div>

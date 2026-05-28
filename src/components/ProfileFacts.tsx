@@ -4,9 +4,9 @@ export default function ProfileFacts() {
   return (
     <div className="flex flex-wrap justify-center gap-6 sm:gap-12 text-[#A3ABB2] font-bold my-8">
       {[
-        { number: "3+", line1: "سال", line2: "سابقه کاری" },
+        { number: "4+", line1: "سال", line2: "سابقه کاری" },
         { number: "6+", line1: "پروژه", line2: "تکمیل شده" },
-        { number: "100%", line1: "رضایت", line2: "مشتری" },
+        { number: "90%", line1: "رضایت", line2: "مشتری" },
       ].map((fact, index) => (
         <div
           key={index}
